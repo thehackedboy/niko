@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+				/*header start hear*/
+#header
+{
+	width: 100vw;
+	height: 100px;
+	background-color: black; 
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;      
+}
+
+#h_logo 
+{
+	width: 35%;
+
+}
+#h_logo a 
+{
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+#h_logo a h1
+{
+	color: white;
+	margin:  35px;
+	
+}
+
+#h_nav
+{
+	width: 65%;
+	padding: 30px;
+	font-size: 1.3rem;
+	color: red;
+}
+
+#h_nav ul
+{
+	list-style-type: none; 
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+#h_nav ul li
+{
+
+}
+
+#h_nav ul li a
+{
+	padding: 0px 25px;
+	text-decoration: none;
+	font-weight: 700;
+	color: white;
+
+}		
+
+
+@media only screen and (min-width: 0px) and (max-width: 400px)
+{
+	#header{
+		height: 70px;
+	}
+	#h_logo{
+		width: 20%;
+	}
+	#h_logo a{
+		font-size: 0.7rem;
+	}
+	#h_logo a h1{
+		color: white;
+	    margin:  15px;
+	}
+	#h_nav{
+		display: none;
+	}
+	
+	
+
+}
+
+	/*header ends hear*/
