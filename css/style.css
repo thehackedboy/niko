@@ -90,7 +90,7 @@
 
 
 #h_nav li a:hover{
-	animation: niko 5s ease infinite alternate-reverse;
+	animation: niko 5s ease infinite alternate;
 }
 
 
@@ -128,12 +128,12 @@
 
 
 #h_login li a:hover{
-	animation: niko 5s ease infinite alternate-reverse;
+	animation: niko 5s ease infinite alternate;
 }
 
 
 #h_login li i:hover{
-	animation: niko 5s ease infinite alternate-reverse;
+	animation: niko 5s ease infinite alternate;
 }
 
 
