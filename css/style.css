@@ -197,8 +197,13 @@
 		color: white;
 	    margin:  15px;
 	}
-	#h_mode{
+/*	#h_mode{
 		display: none;
+	}*/
+		#ham i{
+		position: absolute;
+		top: 25px;
+		right: 60px;
 	}
 
 }
@@ -216,15 +221,9 @@
 		display: block;
 		color: white;
 		font-size: 1.5rem;
-		animation: niko 20s ease infinite alternate-reverse;
 
 	}
-	#ham i{
-		position: absolute;
-		top: 25px;
-		right: 30px;
 
-	}
 	#ham_2{
 		display: none;
 	}
