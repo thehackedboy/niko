@@ -200,7 +200,7 @@
 /*	#h_mode{
 		display: none;
 	}*/
-		#ham i{
+	#ham i{
 		position: absolute;
 		top: 25px;
 		right: 60px;
@@ -219,7 +219,7 @@
 
 	#ham{
 		display: block;
-		color: white;
+		color: black;
 		font-size: 1.5rem;
 
 	}
