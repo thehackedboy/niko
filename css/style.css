@@ -72,6 +72,7 @@
 	width: 50%;
 	/*padding: 30px;*/
 	font-size: 1.1rem;
+	font-weight: 600;
 	color: red;
 
 }
@@ -108,6 +109,9 @@
 #h_login
 {
 	width: 25%;
+	margin-right: 20px;
+	font-weight: 600;
+
 
 }
 
@@ -160,6 +164,7 @@
 {
 	width: 5%;
 	height: 100%;
+
 }
 
 
@@ -168,6 +173,8 @@
 	color: black;
 	padding: 0px 20px;
 	font-size: 1.3rem;
+	font-weight: 600;
+
 }
 
 
@@ -190,6 +197,44 @@
 {
 	display: none;
 }
+
+
+#s_bar{
+	position: absolute;
+	top: 20px;
+	right: 105px;
+	height: 35px;
+	width: 350px;
+
+	display: none;
+	transition: all 0.4s;
+}
+
+
+#s_bar input{
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+	/*text-align: center;*/
+	text-indent: 10px;
+	border: none;
+	
+}
+
+
+
+#ib3{
+	position: absolute;
+}
+
+
+#ib3b{
+	position: absolute;
+	display: none;
+}
+
+
+
 
 @media only screen and (min-width: 0px) and (max-width: 400px)
 {
