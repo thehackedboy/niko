@@ -18,7 +18,7 @@ function day() {
 function night() {
 	document.querySelector("#mode_1").style.display="block";
 	document.querySelector("#mode_2").style.display="none";
-	document.querySelector("#header").style.backgroundColor="whitesmoke";
+	document.querySelector("#header").style.backgroundColor="#e8e8e8";
 	document.querySelector("#ia1").style.color="black";
 	document.querySelector("#ia2").style.color="black";
 	document.querySelector("#ia3").style.color="black";
