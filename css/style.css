@@ -1,16 +1,38 @@
+@keyframes niko{
+	0%{color: blue;}
+	10%{color: cyan;}
+	20%{color: lightgreen;}
+	30%{color: red;}
+	40%{color: pink;}
+	50%{color: magenta;}
+	60%{color: purple;}
+	70%{color: orange;}
+	80%{color: yellow;}
+	90%{color: hotpink;}
+	100%{color: gold;}
+}
+
+
+
+
+
+
+
+
+
 *{
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	font-family: 'Karla', sans-serif;
 }
 
 				/*header start hear*/
 #header
 {
 	width: 100vw;
-	height: 100px;
-	background-color: black; 
-
+	height: 75px;
+	background-color: whitesmoke; 
 	display: flex;
 	justify-content: space-between;
 	align-items: center;      
@@ -18,8 +40,7 @@
 
 #h_logo 
 {
-	width: 35%;
-
+	width: 20%;
 }
 #h_logo a 
 {
@@ -29,24 +50,28 @@
 #h_logo a h1
 {
 	color: white;
-	margin:  35px;
+	animation: niko 20s ease infinite alternate-reverse;
+	font-family: 'Lobster', cursive;
+	font-weight: 1;
+	letter-spacing: 2px;
+	text-align: center;
 	
 }
 
 #h_nav
 {
-	width: 65%;
-	padding: 30px;
-	font-size: 1.3rem;
+	width: 50%;
+	/*padding: 30px;*/
+	font-size: 1.1rem;
 	color: red;
+
 }
 
 #h_nav ul
 {
 	list-style-type: none; 
 	display: flex;
-	justify-content: flex-end;
-
+	justify-content: center;
 }
 
 #h_nav ul li
@@ -56,13 +81,106 @@
 
 #h_nav ul li a
 {
-	padding: 0px 25px;
+	padding: 0px 40px 0px 0px;
 	text-decoration: none;
-	font-weight: 700;
-	color: white;
+	color: black;
+	text-transform: uppercase;
+}
 
-}		
 
+
+#h_nav li a:hover{
+	animation: niko 5s ease infinite alternate-reverse;
+}
+
+
+
+
+#h_login
+{
+	width: 25%;
+
+}
+
+#h_login ul
+{
+	list-style-type: none;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+#h_login ul li
+{
+
+}
+
+
+#h_login ul li a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 1.1rem;
+	padding: 20px;
+
+}
+
+
+#h_login li a:hover{
+	animation: niko 5s ease infinite alternate-reverse;
+}
+
+
+#h_login li i:hover{
+	animation: niko 5s ease infinite alternate-reverse;
+}
+
+
+#h_login i
+{
+	color: black;
+	font-size: 1.2rem;
+
+}
+
+
+
+
+#h_mode_main
+{
+	width: 5%;
+	height: 100%;
+}
+
+
+#h_mode i
+{
+	color: black;
+	padding: 0px 20px;
+	font-size: 1.3rem;
+}
+
+
+#mode_1
+{
+	position: absolute;
+	top: 28px;
+	right: 0px;
+}
+
+#mode_2
+{
+	position: absolute;
+	top: 28px;
+	right: 0px;
+	display: none;
+}
+
+#ham
+{
+	display: none;
+}
 
 @media only screen and (min-width: 0px) and (max-width: 400px)
 {
@@ -73,18 +191,56 @@
 		width: 20%;
 	}
 	#h_logo a{
-		font-size: 0.7rem;
+		font-size: 0.9rem;
 	}
 	#h_logo a h1{
 		color: white;
 	    margin:  15px;
 	}
+	#h_mode{
+		display: none;
+	}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1000px)
+{
 	#h_nav{
 		display: none;
 	}
-	
-	
+	#h_login{
+		display: none;
+	}
 
+	#ham{
+		display: block;
+		color: white;
+		font-size: 1.5rem;
+		animation: niko 20s ease infinite alternate-reverse;
+
+	}
+	#ham i{
+		position: absolute;
+		top: 25px;
+		right: 30px;
+
+	}
+	#ham_2{
+		display: none;
+	}
 }
+
+@media only screen and (min-width: 400px) and (max-width: 1000px)
+{
+	#h_logo h1{
+		margin-left: 20px; 
+	}
+	#ham i{
+		position: absolute;
+		top: 25px;
+		right: 60px;
+	}
+}
+
 
 	/*header ends hear*/
