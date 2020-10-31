@@ -50,7 +50,7 @@
 #h_logo a h1
 {
 	color: white;
-	animation: niko 20s ease infinite alternate-reverse;
+	animation: niko 20s ease infinite alternate;
 	font-family: 'Lobster', cursive;
 	font-weight: 1;
 	letter-spacing: 2px;
