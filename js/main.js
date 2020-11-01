@@ -1,13 +1,16 @@
 function day() {
 	document.querySelector("#mode_2").style.display="block";
 	document.querySelector("#mode_1").style.display="none";
-	document.querySelector("#header").style.backgroundColor="black";
-	document.querySelector("#footer").style.backgroundColor="black";
-	document.querySelector("#nikos").style.backgroundColor="black";
+	document.querySelector("#header").style.backgroundColor="#252020";
+	document.querySelector("#footer").style.backgroundColor="#252020";
+	document.querySelector("#nikos").style.backgroundColor="#252020";
+	document.querySelector(".sub_button").style.backgroundColor="lightgray";
+	document.querySelector(".sub_button").style.color="#252020";
+	document.querySelector(".sub_input").style.backgroundColor="white";	
     // var a; b;
     // a = document.querySelectorAll(".ib");
     // for(b = 0; b < a.length; b++){
-    // 	a[b].style.backgroundColor="black";
+    // 	a[b].style.backgroundColor="#252020";
     // }
 
 	var x, y;
@@ -24,6 +27,9 @@ function night() {
 	document.querySelector("#header").style.backgroundColor="#e8e8e8";
 	document.querySelector("#footer").style.backgroundColor="#e8e8e8";
 	document.querySelector("#nikos").style.backgroundColor="#e8e8e8";
+	document.querySelector(".sub_button").style.backgroundColor="#252020";
+	document.querySelector(".sub_button").style.color="#e8e8e8";
+	document.querySelector(".sub_input").style.backgroundColor="white";
 
 	// var a; b;
  //    a = document.querySelectorAll(".ib");
@@ -34,7 +40,7 @@ function night() {
 	var x, y;
 	x = document.querySelectorAll(".ia");
 	for(y = 0; y <x.length; y++){
-		x[y].style.color="black";
+		x[y].style.color="#252020";
 	}
 }
 
