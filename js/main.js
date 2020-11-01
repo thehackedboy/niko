@@ -2,11 +2,17 @@ function day() {
 	document.querySelector("#mode_2").style.display="block";
 	document.querySelector("#mode_1").style.display="none";
 	document.querySelector("#header").style.backgroundColor="black";
-
+	document.querySelector("#footer").style.backgroundColor="black";
+	document.querySelector("#nikos").style.backgroundColor="black";
+    // var a; b;
+    // a = document.querySelectorAll(".ib");
+    // for(b = 0; b < a.length; b++){
+    // 	a[b].style.backgroundColor="black";
+    // }
 
 	var x, y;
 	x = document.querySelectorAll(".ia");
-	for(y = 0; y <x.length; y++){
+	for(y = 0; y < x.length; y++){
 		x[y].style.color="white";
 	}
 }
@@ -16,7 +22,14 @@ function night() {
 	document.querySelector("#mode_1").style.display="block";
 	document.querySelector("#mode_2").style.display="none";
 	document.querySelector("#header").style.backgroundColor="#e8e8e8";
+	document.querySelector("#footer").style.backgroundColor="#e8e8e8";
+	document.querySelector("#nikos").style.backgroundColor="#e8e8e8";
 
+	// var a; b;
+ //    a = document.querySelectorAll(".ib");
+ //    for(b = 0; b < a.length; b++){
+ //    	a[b].style.backgroundColor="#e8e8e8";
+ //    }
 
 	var x, y;
 	x = document.querySelectorAll(".ia");
